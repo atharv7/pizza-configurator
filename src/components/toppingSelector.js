@@ -10,7 +10,7 @@ class ToppingSelector extends PureComponent {
   onChangeHandler(e) {
     if(e.target.checked===true)
     {
-      const topcount = this.props.pizza.filter((value,index)=>index>3&&index<10).filter(value=>value===true).length
+      const topcount = this.props.pizza.filter((value,index)=>index>2&&index<10).filter(value=>value===true).length
       if(topcount===3){
         alert('Only 3 toppings allowed!')
         e.target.checked=false

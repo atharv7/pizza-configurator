@@ -7,7 +7,7 @@ class PriceDisplayer extends PureComponent {
   render() {
     return (
       <div className="PriceDisplayer">
-        <b>Price: {this.props.pizza[0]}</b>
+        <b>Price: € <span className="Price">{this.props.pizza[0]}.00</span></b>
       </div>
     )
   }
