@@ -16,21 +16,22 @@ class BaseSelector extends PureComponent {
 
   render() {
     return (
-      <div>
+      <div className="BaseSelector">
+        <h1>Step 1: Select a Base!</h1>
         <label>
-          <input type="radio" value="1" name="base_selector" className="BaseSelector" onChange={this.onChangeHandler}/>
+          <input type="radio" value="1" name="base_selector" onChange={this.onChangeHandler}/>
           <b>20cm NY Style</b>
         </label>
         <label>
-          <input type="radio" value="2" name="base_selector" className="BaseSelector" onChange={this.onChangeHandler}/>
+          <input type="radio" value="2" name="base_selector" onChange={this.onChangeHandler}/>
           <b>25cm NY Style</b>
         </label>
         <label>
-          <input type="radio" value="3" name="base_selector" className="BaseSelector" onChange={this.onChangeHandler}/>
+          <input type="radio" value="3" name="base_selector" onChange={this.onChangeHandler}/>
           <b>30cm NY Style</b>
         </label>
         <label>
-          <input type="radio" value="4" name="base_selector" className="BaseSelector" onChange={this.onChangeHandler}/>
+          <input type="radio" value="4" name="base_selector" onChange={this.onChangeHandler}/>
           <b>35cm NY Style</b>
         </label>
       </div>

@@ -1,0 +1,4 @@
+.DeliverySelector h1 {
+  animation: shake infinite 3s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+}

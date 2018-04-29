@@ -16,21 +16,22 @@ class SauceSelector extends PureComponent {
 
   render() {
     return (
-      <div>
+      <div className="SauceSelector">
+        <h1>Step 2: Select Sauce!</h1>
         <label>
-          <input type="radio" value="1" name="sauce_selector" className="SauceSelector" onChange={this.onChangeHandler}/>
+          <input type="radio" value="1" name="sauce_selector" onChange={this.onChangeHandler}/>
           <b>White Sauce</b>
         </label>
         <label>
-          <input type="radio" value="2" name="sauce_selector" className="SauceSelector" onChange={this.onChangeHandler}/>
+          <input type="radio" value="2" name="sauce_selector" onChange={this.onChangeHandler}/>
           <b>Red Sauce</b>
         </label>
         <label>
-          <input type="radio" value="3" name="sauce_selector" className="SauceSelector" onChange={this.onChangeHandler}/>
+          <input type="radio" value="3" name="sauce_selector" onChange={this.onChangeHandler}/>
           <b>Double Red Sauce</b>
         </label>
         <label>
-          <input type="radio" value="4" name="sauce_selector" className="SauceSelector" onChange={this.onChangeHandler}/>
+          <input type="radio" value="4" name="sauce_selector" onChange={this.onChangeHandler}/>
           <b>Mix it up!</b>
         </label>
       </div>

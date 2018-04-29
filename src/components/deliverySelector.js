@@ -24,9 +24,10 @@ class DeliverySelector extends PureComponent {
 
   render() {
     return (
-      <div>
+      <div className="DeliverySelector">
+        <h1>Want your Pizza 'On The Fly'??</h1>
         <label>
-          <input type="checkbox" value="1" name="delivery_selector" className="DeliverySelector" onChange={this.onChangeHandler}/>
+          <input type="checkbox" value="1" name="delivery_selector" onChange={this.onChangeHandler}/>
           <b>Turbo Drone Delivery</b>
         </label>
       </div>

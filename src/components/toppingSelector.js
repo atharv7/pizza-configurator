@@ -30,33 +30,34 @@ class ToppingSelector extends PureComponent {
 
   render() {
     return (
-      <div>
+      <div className="ToppingSelector">
+        <h1>Step 3: Select Your Toppings! <span className="red">(max 3)</span></h1>
         <label>
-          <input type="checkbox" value="1" name="topping_selector" className="ToppingSelector" onChange={this.onChangeHandler}/>
+          <input type="checkbox" value="1" name="topping_selector" onChange={this.onChangeHandler}/>
           <b>Pineapple</b>
         </label>
         <label>
-          <input type="checkbox" value="2" name="topping_selector" className="ToppingSelector" onChange={this.onChangeHandler}/>
+          <input type="checkbox" value="2" name="topping_selector" onChange={this.onChangeHandler}/>
           <b>Corn</b>
         </label>
         <label>
-          <input type="checkbox" value="3" name="topping_selector" className="ToppingSelector" onChange={this.onChangeHandler}/>
+          <input type="checkbox" value="3" name="topping_selector" onChange={this.onChangeHandler}/>
           <b>Olives</b>
         </label>
         <label>
-          <input type="checkbox" value="4" name="topping_selector" className="ToppingSelector" onChange={this.onChangeHandler}/>
+          <input type="checkbox" value="4" name="topping_selector" onChange={this.onChangeHandler}/>
           <b>Red Onions</b>
         </label>
         <label>
-          <input type="checkbox" value="5" name="topping_selector" className="ToppingSelector" onChange={this.onChangeHandler}/>
+          <input type="checkbox" value="5" name="topping_selector" onChange={this.onChangeHandler}/>
           <b>Spinach</b>
         </label>
         <label>
-          <input type="checkbox" value="6" name="topping_selector" className="ToppingSelector" onChange={this.onChangeHandler}/>
+          <input type="checkbox" value="6" name="topping_selector" onChange={this.onChangeHandler}/>
           <b>Cherry Tomatoes</b>
         </label>
         <label>
-          <input type="checkbox" value="7" name="topping_selector" className="ToppingSelector" onChange={this.onChangeHandler}/>
+          <input type="checkbox" value="7" name="topping_selector" onChange={this.onChangeHandler}/>
           <b>Cottage Cheese</b>
         </label>
 
