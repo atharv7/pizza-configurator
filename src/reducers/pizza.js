@@ -14,7 +14,7 @@ const totalPrice = (state) => {
 
 export default function(state = pizza, {type,payload} = {}) {
 
-  payload=parseInt(payload)
+  payload=parseInt(payload,10)
   switch(type) {
     case 'BASE_SELECTOR':
       state[1]=payload
@@ -51,5 +51,4 @@ export default function(state = pizza, {type,payload} = {}) {
       return state
 
   }
-  alert('hi')
 }

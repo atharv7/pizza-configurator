@@ -10,16 +10,14 @@ class DeliverySelector extends PureComponent {
   onChangeHandler(e) {
     if(e.target.checked===true)
     {
-      this.props.dispatch
-      ({
+      this.props.dispatch ({
         type:'TURBO_SELECTOR',
         payload:e.target.value
       })
     } else {
-      this.props.dispatch
-      ({
-        type:'TURBO_DESELECTOR',
-        payload:e.target.value
+      this.props.dispatch({
+          type:'TURBO_DESELECTOR',
+          payload:e.target.value
       })
     }
   }

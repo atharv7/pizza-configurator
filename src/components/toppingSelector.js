@@ -15,15 +15,13 @@ class ToppingSelector extends PureComponent {
         alert('Only 3 toppings allowed!')
         e.target.checked=false
       } else {
-        this.props.dispatch
-        ({
+        this.props.dispatch({
           type:'TOPPING_SELECTOR',
           payload:e.target.value
         })
       }
     } else {
-      this.props.dispatch
-      ({
+      this.props.dispatch({
         type:'TOPPING_DESELECTOR',
         payload:e.target.value
       })
