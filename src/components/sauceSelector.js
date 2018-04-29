@@ -38,7 +38,7 @@ class SauceSelector extends PureComponent {
   }
 }
 
-const mapStateToProps = (state,props) => {
+const mapStateToProps = (state) => {
   return {
     pizza: state.pizza
   }

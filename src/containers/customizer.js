@@ -1,13 +1,15 @@
 import React,{PureComponent} from 'react'
-import { connect } from 'react-redux'
-import {BaseSelector,SauceSelector} from '../components/index'
+import {BaseSelector,SauceSelector,PriceDisplayer,ToppingSelector,DeliverySelector} from '../components/index'
 
 class Customizer extends PureComponent {
   render() {
     return (
       <div>
+        <PriceDisplayer />
         <BaseSelector />
         <SauceSelector />
+        <ToppingSelector />
+        <DeliverySelector />
       </div>
     )
   }
