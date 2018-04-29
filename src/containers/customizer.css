@@ -23,16 +23,32 @@ input[type="radio"] {
 
 input[type="radio"] + b {
   display:block;
+  width:90%;
+  margin:auto;
+  margin-top:0px;
+  padding:2px;
+  border:dashed thin white;
+  transition: all 0.5s;
+
 }
 
 input[type="checkbox"] + b {
   display:block;
+  width:90%;
+  margin:auto;
+  padding:10px;
+  border:dashed thin white;
+  transition: all 0.5s;
 }
 
 input[type="radio"]:checked + b {
   color:yellowgreen;
+  font-size:1.35em;
+  transition: all 0.5s;
 }
 
 input[type="checkbox"]:checked + b {
   color:yellowgreen;
+  font-size:1.35em;
+  transition: all 0.5s;
 }
