@@ -5,7 +5,6 @@ import { connect } from 'react-redux'
 class BaseSelector extends PureComponent {
   constructor(props) {
     super(props)
-    this.pizza = this.props.pizza
     this.onChangeHandler = this.onChangeHandler.bind(this)
   }
   onChangeHandler(e) {

@@ -1,3 +1,4 @@
-import BaseSelector from './baseSelector.js'
+import BaseSelector from './baseSelector'
+import SauceSelector from './sauceSelector'
 
-export {BaseSelector}
+export {BaseSelector,SauceSelector}
