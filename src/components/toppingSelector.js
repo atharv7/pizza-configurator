@@ -42,7 +42,7 @@ class ToppingSelector extends PureComponent {
         </label>
         <label>
           <input type="checkbox" value="3" name="topping_selector" onChange={this.onChangeHandler}/>
-          <b>Olives</b>
+          <b>Olives (Green)</b>
         </label>
         <label>
           <input type="checkbox" value="4" name="topping_selector" onChange={this.onChangeHandler}/>

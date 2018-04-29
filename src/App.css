@@ -35,6 +35,7 @@
 .container {
   background-image:url(http://www.pizzalijn.net/wp-content/uploads/2015/04/pizzalijn.net2_.jpg);
   background-size:100% 100%;
+  background-attachment: fixed;
   height:100%;
 }
 @keyframes shake {
