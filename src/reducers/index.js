@@ -1,1 +1,5 @@
-export default {}
+import pizza from './pizza'
+
+export default {
+  pizza
+}
